@@ -99,7 +99,7 @@ namespace EMarkketing.Controllers
             con.SaveChanges();
             return RedirectToAction("ViewCategory");
         }
-
+        //image
         private string UploadFile(HttpPostedFileBase file)
         {
             Random r = new Random();
