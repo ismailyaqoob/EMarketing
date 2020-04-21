@@ -12,6 +12,7 @@ namespace EMarkketing.Controllers
     public class AdminController : Controller
     {
         dbecommerceEntities con = null;
+        //controller
         public AdminController()
         {
             con = new dbecommerceEntities();
