@@ -19,8 +19,9 @@ The websiote contain following features:
 
 ## How to Compile?
 
-First of all you need to download the project then you need **Visual Studio** to run the project. If you have already installed **Visual Studio** then go to the folder of **EMarketing** then open **EMarketing.sln** then press **F5** to execute the code. When you execute the code you might be having some databsae errors. To overcome this issue you have to copy the scripts from [Database Scripts.txt]() file and compime them in **Mocrosoft SQL Server Management Studio** then you need to change the connection string shown in below image in **Web.config** file. 
+First of all you need to download the project then you need **Visual Studio** to run the project. If you have already installed **Visual Studio** then go to the folder of **EMarketing** then open **EMarketing.sln** then press **F5** to execute the code. When you execute the code you might be having some databsae errors. To overcome this issue you have to copy the scripts from [Database Scripts.txt](https://github.com/ismailyaqoob/EMarketing/blob/master/Database%20Scripts.txt) file and compime them in **Mocrosoft SQL Server Management Studio** then you need to change the connection string shown in below image in **Web.config** file. 
 **_Note: This Web.config file is present under the folder of EMarketing not in Views folder._**
 
+<image src="ConStringImage.png"/>
 
 **_Note: The project is built on .Net Framework 4.7 if you have older version then you can run the project by setting the version of .Net Framework according to you._**
